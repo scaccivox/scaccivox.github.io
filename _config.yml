@@ -1,0 +1,31 @@
+# Welcome to Jekyll!
+#
+title: Scacci Vox
+description: >- # this means to ignore newlines until "baseurl:"
+    A new movement in chess and engineering to fight for progress.
+    A decentralized, anti dogmatic, and idealist approach to the great game.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  scacci-vox
+
+
+incremental: true
+show_excerpts: true
+
+defaults:
+  -
+    scope:
+      path: "_posts"
+    values:
+      permalink: "/:categories/:title"
+
+header_pages:
+  - about.md
+  - contact.md
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
