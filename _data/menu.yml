@@ -1,0 +1,21 @@
+entries:
+  - title: info
+    url: false
+    entries:
+      - title: A new movement to change the world of chess.
+        url: false
+      - title: github
+        url: https://github.com/scaccivox
+      - title: Manifesto
+        url: docs/manifesto
+
+  - title: Latest Posts
+    post_list: true
+    url: false
+    entries: true
+
+  - title: about
+    url: about
+
+  - title: rss
+    url: feed.xml
